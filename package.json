@@ -2,7 +2,7 @@
   "name": "projectwavybits",
   "version": "0.0.1",
   "description": "JS1k lattice Boltzmann implementation",
-  "main": "src/boltzmann.js",
+  "main": "src/wavybits.js",
   "author": "ebenpack",
   "license": "MIT"
 }
