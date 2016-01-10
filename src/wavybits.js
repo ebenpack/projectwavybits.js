@@ -10,13 +10,12 @@
 // These are givens for the contest, but it helps to have
 // them here so Google closure doesn't use the names
 
-a = document.getElementsByTagName('canvas')[0];
-b = document.body;
-c = a.getContext("2d");
-d = function(e){ return function(){ e.parentNode.removeChild(e); }; }(a);
-Y=600;Z=99;
-
 function JS1K(){
+    var a = document.getElementsByTagName('canvas')[0];
+    var b = document.body;
+    var c = a.getContext("2d");
+    var d = function(e){ return function(){ e.parentNode.removeChild(e); }; }(a);
+    var Y=600;Z=99;
     with(Math)S=sqrt,P=pow,F=floor,A=abs;
     var lattice_dim = 99; // lattice dimensions. 99 saves me 1 byte vs 100. I'm seriously that desperate 
     var lattice_sq = lattice_dim*lattice_dim; // total # of nodes
